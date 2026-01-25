@@ -1,0 +1,237 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header start */
+    .c_menu ul li a {
+        margin-left: 15px;
+    }
+ /* banner start */
+    .banner{
+        padding-bottom: 60px !important;
+    }
+    .banner_text {
+        text-align: center;
+    }
+
+    .banner_img {
+        margin: 0 0 30px;
+    }
+
+    .banner_h1 {
+        margin: 10px 0 20px !important;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .banner_p2{
+        margin: 0;
+        line-height: 30px;
+    }
+    /* banner start  */
+    .feature {
+        padding-bottom: 60px;
+    }
+    .f_content {
+    margin-top: 20px;
+    }
+    /* course start */
+        .course_content {
+        margin: 30px 0 0;
+    }
+    .course_h1 {
+    font-size: 30px;
+}
+.course_f_left_img {
+    width: 20px;
+}
+.course_f_right_img {
+    width: 20px;
+}
+.lii:not(:last-child) {
+    margin-right: -4px;
+}
+.course {
+    padding-bottom: 60px;
+}
+/* testimonial start  */
+    .testimonial {
+        padding-bottom: 60px;
+    }
+
+.testimonial_h1 {
+   font-size: 30px;
+}
+/* testimony start  */
+   .t_content {
+    margin-top: 40px;
+}
+.t_img img {
+    padding: 0px 50px 30px;
+}
+
+.t_text {
+    text-align: center;
+}
+/* footer top start  */
+.ft_text {
+    padding-right: 0;
+     margin-bottom: 35px;
+    text-align: center;
+}
+.ft_box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ft_box:last-child{
+    margin-bottom: -30px;
+}
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header start */
+    .c_menu ul li a {
+        margin-left: 15px;
+    }
+    /* banner start */
+    .banner{
+        padding-bottom: 60px !important;
+    }
+    .banner_text {
+        text-align: center;
+    }
+
+    .banner_img {
+        margin: 0 50px 30px;
+    }
+
+    .banner_h1 {
+        margin: 10px 70px 20px !important;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .banner_p2{
+        margin: 0 30px;
+        line-height: 30px;
+    }
+/* banner start  */
+.feature {
+    padding-bottom: 60px;
+}
+    .f_content {
+    margin-top: 20px;
+    }  
+.course_content {
+    margin-top: 30px;
+}
+/* testimony start  */
+    .t_content {
+    margin-top: 40px;
+}
+.t_img img {
+    padding: 0px 100px 0;
+}
+/* footer top start  */
+.ft_text {
+    padding-right: 0;
+     margin-bottom: 35px;
+    text-align: center;
+}
+.ft_box {
+    text-align: center;
+}
+
+}
+        
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start */
+    .c_menu ul li a {
+        margin-left: 15px;
+    }
+
+    /* banner start */
+    .banner_text {
+        text-align: center;
+    }
+
+    .banner_img {
+        margin: 0 50px 30px;
+    }
+
+    .banner_h1 {
+        margin: 10px 150px 20px !important;
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .banner_p2{
+        margin: 0 50px 30px;
+    }
+/* banner start  */
+    .feature {
+        padding-bottom: 80px;
+    }
+    /* course start  */
+    .course_content {
+    margin: 40px 100px 0px;
+    }
+    /* testimonial start  */
+    .t_content {
+    margin-top: 40px;
+}
+/* footer top start  */
+.ft_text {
+    padding-right: 0;
+     margin-bottom: 35px;
+    text-align: center;
+}
+.ft_box {
+    text-align: center;
+}
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_h1 {
+        margin: 10px 45px 20px 0 !important;
+    }
+    /* courses start  */
+    .course_f_left_img {
+    width: 20px;
+}
+.course_f_right_img {
+    width: 20px;
+}
+.lii:not(:last-child) {
+    margin-right: -4px;
+}
+    /* footer top start  */
+    .ft_text {
+    padding-right: 70px;
+}
+
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* banner start */
+    .banner_h1 {
+        margin: 10px 45px 20px 0 !important;
+    }
+    /* footer top start  */
+    .ft_text {
+    padding-right: 85px;
+}
+
+}
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {}
